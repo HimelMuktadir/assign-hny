@@ -8,7 +8,7 @@
 }
 
 .banner-text{
-   color: rgb(8, 0, 0);
+   color: rgb(255, 255, 255);
    font-size: 40px;
    font-weight: 700;
    text-align: center;
@@ -16,7 +16,7 @@
    left: 50%;
    top: 50%;
    transform: translate(-50%,-50%);
-   text-shadow: 2px 2px rgb(255, 240, 27);
+   text-shadow: 3px 3px black;
 }
 
 .banner-img img{
@@ -67,8 +67,6 @@
 
 .greeting{
    position: relative;
-   display: flex;
-   justify-content: space-between;
 }
 .greeting-text{
 position: absolute;
@@ -96,9 +94,8 @@ button{
    background-color: black;
    border: 0;
 }
-section{
-   text-align: center;
-}
+.venu{text-align: center;}
+
 .btn2{
    padding: 7px 12px;
    background-color:red;
@@ -108,4 +105,13 @@ section{
 }
 span{
    color: red;
+}
+section{
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  padding-top: 30px;
+  padding-bottom: 20px; 
+  background-color: antiquewhite;
+  
 }
