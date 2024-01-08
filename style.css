@@ -173,17 +173,44 @@ img{max-width: 100%;}
 
 .btn4{
 text-align: center;
-padding: 10px 200px;
+padding: 20px 200px;
 }
 
 #btn5{
    background-color: red;
-   padding: 5px 10px;
+  padding: 7px 15px;
+  border-radius: 0 15px 15px 0 ;
 }
-
 input{
    padding: 8px 15px;
-   border-radius: 10px;
+   border-radius: 15px 0 0 15px;
    border: 0;
 }
+footer{
+   background: #070211;
+   color: white;
+}
 
+.address{
+   display: flex;
+   justify-content: space-between;
+   padding: 40px 140px;
+}
+.contact{
+   display: inline-flex;
+}
+.web{
+   display: inline-flex;
+}
+.cell{
+   display: grid;
+}
+.icon{
+   padding:30px 530px;
+}
+
+.copyright-sec{
+   display: flex;
+   justify-content: space-between;
+   padding: 30px 140px;
+}
