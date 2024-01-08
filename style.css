@@ -26,6 +26,7 @@
   width: 85%;
   padding-top: 30px;
   padding-bottom: 50px;
+  
 }
 .discount{
    text-align: center;
@@ -113,5 +114,49 @@ section{
   padding-top: 30px;
   padding-bottom: 20px; 
   background-color: antiquewhite;
-  
+
 }
+
+.function{
+   text-align: center;
+   margin-top: 30px;
+}
+.function h4{
+   font-size: 16px;
+   font-weight: 450;
+   padding-bottom: 10px;
+}
+.function p{
+   padding: 10px 200px;
+}
+.gift{
+   padding-left: 100px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+.gift h4{
+   color: red;
+   font-size: 16px;
+   font-weight: 450;
+   padding-bottom: 20px;
+}
+.gift p{
+   padding-right: 350px;
+   padding-top: 20px;
+}
+.card-sec{
+   margin: 30px 100px;
+}
+
+.container{
+   display: flex;
+   justify-content: space-between;
+}
+img{
+   max-width: 100%;
+
+}
+.card{
+   max-width: 340px;
+}
+
