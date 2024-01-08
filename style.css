@@ -145,18 +145,45 @@ section{
    padding-top: 20px;
 }
 .card-sec{
-   margin: 30px 100px;
+   margin: 40px 100px;
 }
 
 .container{
    display: flex;
    justify-content: space-between;
 }
-img{
-   max-width: 100%;
+img{max-width: 100%;}
 
-}
 .card{
-   max-width: 340px;
+   max-width: 340px;}
+
+.subscribe{
+   margin-left: auto;
+   margin-right: auto;
+   width: 85%;
+   padding-top: 30px;
+   padding-bottom: 20px; 
+   background-color: antiquewhite;
+   margin-bottom: 30px;
+}
+.envelup {
+   padding-left: 500px;
+   max-width: 100px;
+}
+
+.btn4{
+text-align: center;
+padding: 10px 200px;
+}
+
+#btn5{
+   background-color: red;
+   padding: 5px 10px;
+}
+
+input{
+   padding: 8px 15px;
+   border-radius: 10px;
+   border: 0;
 }
 
